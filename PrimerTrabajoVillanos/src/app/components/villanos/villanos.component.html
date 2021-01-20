@@ -1,0 +1,12 @@
+<h1> Villanos <small>Disney</small></h1>
+<div class="card-columns" style="width: 55rem;">
+    <div *ngFor="let villa of villanos; let i = index" class="card animated fadeIn fast">
+        <img src="{{villa.img}}" class="card-img-top" [alt]="villa.nombre" style="height: 300px !important;">
+        <div class="card-body">
+            <h5 class="card-title">{{villa.nombre}}</h5>
+            <p class="card-text">{{villa.bio}}</p>
+            <p class="card-text"><small class="text-muted">{{villa.aparicion}}</small></p>
+            <a [routerLink]="['/villano', i]">Ver mas</a>
+        </div>
+    </div>
+</div>
