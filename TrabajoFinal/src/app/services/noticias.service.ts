@@ -58,7 +58,7 @@ export class NoticiasService {
 private RespuestaTopHeadlines_ : RespuestaTopHeadlines=
   {
   status: "acces",
-  totalResults: 10,
+  totalResults: 15,
   articles:
     [{
       author: null,
@@ -69,7 +69,7 @@ private RespuestaTopHeadlines_ : RespuestaTopHeadlines=
         id:"1",
         name:"Spiderman"
       },
-      title:"Spiderman MArvel Comics",
+      title:"Spiderman-Hereo",
       url:"https://www.superheroeweb.com/spiderman/",
       urlToImage:"https://www.superheroeweb.com/wp-content/uploads/2019/02/imagen-spiderman-top-canva-1024x576.jpg"
     },
@@ -82,7 +82,7 @@ private RespuestaTopHeadlines_ : RespuestaTopHeadlines=
         id:"2",
         name:"Aquaman"
       },
-      title:"Aquaman -MArvel Comics",
+      title:"Aquaman-Hereo",
       url:"https://www.superheroeweb.com/aquaman/",
       urlToImage:"https://www.superheroeweb.com/wp-content/uploads/2019/02/aquaman-nueva-1-1024x576.jpg"
     },
@@ -95,7 +95,7 @@ private RespuestaTopHeadlines_ : RespuestaTopHeadlines=
         id:"3",
         name:"Deadpool"
       },
-      title:"Deadpool -MArvel Comics",
+      title:"Deadpool-Hereo",
       url:"https://www.superheroeweb.com/otros-superheroes/",
       urlToImage:"https://www.superheroeweb.com/wp-content/uploads/2019/03/imagen-deadpool-top-min.jpg"
     },
@@ -108,7 +108,7 @@ private RespuestaTopHeadlines_ : RespuestaTopHeadlines=
         id:"4",
         name:"Batman"
       },
-      title:"Batman -MArvel Comics",
+      title:"Batman-Hereo",
       url:"https://www.superheroeweb.com/batman",
       urlToImage:"https://www.superheroeweb.com/wp-content/uploads/2019/02/imagen-batmann-top-1024x576.jpg"
     },
@@ -121,7 +121,7 @@ private RespuestaTopHeadlines_ : RespuestaTopHeadlines=
         id:"5",
         name:"CAPTAIN MARVEL"
       },
-      title:"CAPTAIN MARVEL -MArvel Comics",
+      title:"CAPTAIN MARVEL-Hereo",
       url:"https://www.superheroeweb.com/lista-top-de-superheroes-2019/",
       urlToImage:"https://www.superheroeweb.com/wp-content/uploads/2019/03/capitana-marvel-lista-1-1.jpg"
     },
@@ -134,7 +134,7 @@ private RespuestaTopHeadlines_ : RespuestaTopHeadlines=
         id:"6",
         name:"Flash"
       },
-      title:"Flash -MArvel Comics",
+      title:"Flash-Hereo",
       url:"https://www.superheroeweb.com/flash/",
       urlToImage:"https://www.superheroeweb.com/wp-content/uploads/2019/03/imagen-flash-top-1-min.jpg"
     },
@@ -147,7 +147,7 @@ private RespuestaTopHeadlines_ : RespuestaTopHeadlines=
         id:"7",
         name:"Thor"
       },
-      title:"Thor -MArvel Comics",
+      title:"Thor-Hereo",
       url:"https://www.superheroeweb.com/otros-superheroes/",
       urlToImage:"https://www.superheroeweb.com/wp-content/uploads/2019/03/imagen-thor-lista-2-min.jpg"
     },
@@ -160,7 +160,7 @@ private RespuestaTopHeadlines_ : RespuestaTopHeadlines=
         id:"8",
         name:"Wonder Woman"
       },
-      title:"Wonder Woman - MArvel Comics",
+      title:"Wonder Woman-Hereo",
       url:"https://www.superheroeweb.com/wonder-woman/",
       urlToImage:"https://www.superheroeweb.com/wp-content/uploads/2019/03/imagen-wonder-woman-top-2-min.jpg"
     },
@@ -173,7 +173,7 @@ private RespuestaTopHeadlines_ : RespuestaTopHeadlines=
         id:"9",
         name:"Iron Man"
       },
-      title:"Iron Man - MArvel Comics",
+      title:"Iron Man-Hereo",
       url:"https://www.superheroeweb.com/iron-man",
       urlToImage:"https://www.superheroeweb.com/wp-content/uploads/2019/03/imagen-ironman-top-min.jpg"
     },
@@ -186,12 +186,75 @@ private RespuestaTopHeadlines_ : RespuestaTopHeadlines=
         id:"10",
         name:"Superman"
       },
-      title:"Superman - MArvel Comics",
+      title:"Superman-Hereo",
       url:"https://www.superheroeweb.com/superman-2/",
       urlToImage:"https://www.superheroeweb.com/wp-content/uploads/2019/03/imagen-superman-top-min.jpg"
+    },
+    {
+      author: null,
+      content:"El Titán Loco es el protagonista indiscutible de las últimas películas de la franquicia, pero, como hemos comentado al principio, no es el más carismático de los villanos. Mirado con perspectiva, su plan hace más aguas que el final de Titanic. Si entonces nos preguntábamos cómo es que nadie vio que había espacio para dos en la tabla, Thanos nos hace cuestionarnos por qué decide matar a la mitad de la población universal cuando podría doblar los recursos.",
+      description:"El Titán Loco es el protagonista indiscutible de las últimas películas de la franquicia, pero, como hemos comentado al principio, no es el más carismático de los villanos.",
+      publishedAt:"2021-02-15T14:05:00Z",
+      source:{
+        id:"11",
+        name:"Thanos"
+      },
+      title:"Thanos -Villano",
+      url:"https://hipertextual.com/2019/07/10-villanos-ucm-peor-mejor",
+      urlToImage:"https://hipertextual.com/files/2019/07/hipertextual-10-villanos-ucm-peor-mejor-2019302965-860x521.jpg"
+    },
+    {
+      author: null,
+      content:"Si hay algo que hace que empaticemos con un villano es su capacidad de redención. Nébula actúa como la mala de la película en la primera cinta de Guardianes de la Galaxia y en gran parte de la segunda. Se nos presenta como una asesina sin escrúpulos que cumple sin rechistar las órdenes de Thanos. Sin embargo, es mucho más que eso.",
+      description:"Si hay algo que hace que empaticemos con un villano es su capacidad de redención. Nébula actúa como la mala de la película en la primera cinta de Guardianes de la Galaxia y en gran parte de la segunda.",
+      publishedAt:"2021-02-15T14:05:00Z",
+      source:{
+        id:"12",
+        name:"Nébula"
+      },
+      title:"Nébula -Villano",
+      url:"https://hipertextual.com/2019/07/10-villanos-ucm-peor-mejor",
+      urlToImage:"https://hipertextual.com/files/2019/07/hipertextual-10-villanos-ucm-peor-mejor-2019277530-860x430.jpg"
+    },
+    {
+      author: null,
+      content:"Ultron refleja una de las mayores meteduras de pata de Tony Stark y solo por eso se merece estar en un puesto tan alto. Su personalidad, como bien explica en la película, es una combinación retorcida de la Inteligencia Artificial de Jarvis, los conocimientos adquiridos en la red y los razonamientos del propio Iron Man. Por supuesto, su línea de pensamiento pronto gira en sentido similar a la de Thanos y decide que, para salvar la Tierra, debe destruirla.",
+      description:"Ultron refleja una de las mayores meteduras de pata de Tony Stark y solo por eso se merece estar en un puesto tan alto. Su personalidad, como bien explica en la película, es una combinación retorcida de la Inteligencia Artificial de Jarvis, los conocimientos adquiridos en la red y los razonamientos del propio Iron Man.",
+      publishedAt:"2021-02-15T14:05:00Z",
+      source:{
+        id:"13",
+        name:"Ultron"
+      },
+      title:"Ultron -Villano",
+      url:"https://hipertextual.com/2019/07/10-villanos-ucm-peor-mejor",
+      urlToImage:"https://hipertextual.com/files/2019/07/hipertextual-10-villanos-ucm-peor-mejor-2019804448-860x485.jpg"
+    },
+    {
+      author: null,
+      content:"Es el primer villano del UCM con el que los fan han caído absolutamente rendidos. Su personalidad impredecible, divertida y sarcástica lo convierten en el más carismático de los villanos de Marvel. Hay que reconocer que gran parte de la culpa la tiene Tom Hiddleston, que le dio al personaje el toque final de locura que terminó por enamorar al público.De no ser por este personaje, las dos primeras entregas de Thor habrían quedado aún más insulsas de lo que son.",
+      description:"Es el primer villano del UCM con el que los fan han caído absolutamente rendidos.",
+      publishedAt:"2021-02-15T14:05:00Z",
+      source:{
+        id:"14",
+        name:"Loki"
+      },
+      title:"Loki -Villano",
+      url:"https://hipertextual.com/2019/07/10-villanos-ucm-peor-mejor",
+      urlToImage:"https://hipertextual.com/files/2019/07/hipertextual-10-villanos-ucm-peor-mejor-2019299397-860x452.jpeg"
+    },
+    {
+      author: null,
+      content:"Es la más reciente incorporación al plantel de villanía del UCM y, quizá por esa misma razón, es el que aúna más características favorables. Al igual que Ego, emplea su carisma y su labia para engañar al protagonista y hacerle creer que es bueno, cuando en realidad sus motivaciones son muy oscuras. Por otro lado, es uno más de los villanos que nace por obra y gracia del ego de Tony Stark —lo que hace que uno se pregunte quién es el verdadero villano—. Sus poderes se basan en ingenio, tecnología y manipulación, una combinación nada desdeñable de habilidades con un resultado visualmente genial a la par que terrorífico. Y no hace falta decir que está dispuesto a todo para convertirse en el nuevo héroe de la Tierra. No tiene escrúpulos a la hora de matar inocentes, incluso si son niños.",
+      description:"Es la más reciente incorporación al plantel de villanía del UCM y, quizá por esa misma razón, es el que aúna más características favorables. Al igual que Ego, emplea su carisma y su labia para engañar al protagonista y hacerle creer que es bueno, cuando en realidad sus motivaciones son muy oscuras.",
+      publishedAt:"2021-02-15T14:05:00Z",
+      source:{
+        id:"15",
+        name:"Misterio"
+      },
+      title:"Misterio -Villano",
+      url:"https://hipertextual.com/2019/07/10-villanos-ucm-peor-mejor",
+      urlToImage:"https://hipertextual.com/files/2019/07/hipertextual-deepfakes-se-aduenan-spider-man-lejos-casa-2019989164-860x360.jpg"
     }
-
-
   ]
   } 
 
