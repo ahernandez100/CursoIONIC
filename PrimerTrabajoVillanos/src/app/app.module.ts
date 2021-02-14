@@ -21,6 +21,11 @@ import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.
 import { VillanosComponent } from './components/villanos/villanos.component';
 
 import { VillanoComponent } from './components/villano/villano.component';
+import { AngularStylosComponent } from './components/angular-stylos/angular-stylos.component';
+import { LinksComponent } from './components/about/links/links.component';
+import { InfoComponent } from './components/about/info/info.component';
+import { AppRoutingModule } from './app-routing.module';
+
 
 
 
@@ -37,11 +42,15 @@ import { VillanoComponent } from './components/villano/villano.component';
     HeroeTarjetaComponent,
     VillanosComponent,
     VillanoComponent,
+    AngularStylosComponent,
+    LinksComponent,
+    InfoComponent,
  
   ],
   imports: [
     BrowserModule,
-    APP_ROUTING
+    APP_ROUTING,
+    AppRoutingModule
   ],
   providers: [
     HeroesService,
@@ -49,4 +58,5 @@ import { VillanoComponent } from './components/villano/villano.component';
   ],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

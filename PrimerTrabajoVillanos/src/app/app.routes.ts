@@ -9,6 +9,9 @@ import { BuscadorComponent } from "./components/buscador/buscador.component";
 import { VillanosComponent } from "./components/villanos/villanos.component";
   import { from } from 'rxjs';
 import { VillanoComponent } from './components/villano/villano.component';
+import { AngularStylosComponent } from './components/angular-stylos/angular-stylos.component';
+
+
 const APP_ROUTES: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'heroes', component: HeroesComponent },
@@ -16,7 +19,9 @@ const APP_ROUTES: Routes = [
   { path: 'buscar/:termino', component: BuscadorComponent },
   { path: 'villanos', component: VillanosComponent },
   { path: 'villano/:id', component: VillanoComponent },
+  {path:'angular-stylos', component:AngularStylosComponent},
   { path: 'about', component: AboutComponent },
+
   { path: '**', pathMatch:'full', redirectTo: 'home'},
 ];
 
